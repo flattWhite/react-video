@@ -2,7 +2,7 @@ import React from "react";
 
 const VideoDetail = ({ video }) => {
 	if (!video) {
-		return <div>Please search a video and select it to play</div>;
+		return <div>Loading...</div>;
 	}
 
 	const videoSrc = `https://youtube.com/embed/${video.id.videoId}`;
